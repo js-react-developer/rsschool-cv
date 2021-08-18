@@ -32,3 +32,15 @@ function getCount(str) {
   return vowelsCount;
 }
 ```
+
+# Experience
+* RS School "JavaScript/Frontend Pre-School" (Active)
+* [JavaScript Tutorial](https://learn.javascript.ru/)
+* "ReactJS - Samurai Way" on [YouTube](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
+
+# Education
+Yanka Kupala State University of Grodno, Information Resource Management
+# Languages
+* **English** - A2
+* **Russian** - native
+* **Belorussian** - native
