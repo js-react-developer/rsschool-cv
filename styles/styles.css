@@ -1,0 +1,141 @@
+body {
+  background-color: #e2e2e2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  line-height: 23px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.grid-wrapper {
+  margin: 20px auto;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-areas: 
+    "header header"
+    "side content"
+    "footer footer";
+  box-shadow: 6px 6px 30px 6px rgba(7, 87, 91, 0.5);
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.grid-header {
+  grid-area: header;
+  display: flex;
+  background-color: rgba(196, 223, 230, 0.25);
+  color: #07575B;
+  padding: 1px 0;
+}
+
+.grid-header h1 {
+  margin: 0 auto;
+}
+
+.grid-header img {
+  width: 250px;
+  margin: 0 0 0 35px;
+}
+
+.grid-header-info {
+  align-self: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.grid-side {
+  grid-area: side;
+  background-color: #07575b;
+  color: #c4dfe6;
+}
+
+.grid-side-header {
+  height: 50px;
+  width: 300px;
+  background-color: #c4dfe6;
+  margin: 5px auto 0 auto;
+  border-radius: 10px;
+  color: #07575b;
+}
+
+.grid-side-header h2 {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2em;
+}
+
+.language {
+  font-weight: bold;
+}
+
+.grid-side a {
+  text-decoration: none;
+  color: #c4dfe6;
+  font-weight: 600;
+}
+
+.grid-side__contacts ul {
+  list-style-type: none;
+  padding: 0 0 0 15px;
+}
+
+.grid-side__contacts li img {
+  margin: 5px 10px 5px 0;
+  vertical-align: middle;
+}
+
+.grid-content {
+  grid-area: content;
+  padding: 0 10px;
+  background-color: #c4dfe6;
+  color: #07575b;
+}
+
+.grid-content-header {
+  height: 50px;
+  width: 300px;
+  margin: 5px auto 0 auto;
+  background-color: #07575b;
+  border-radius: 10px;
+  color: #c4dfe6;
+}
+
+.grid-content-header h2 {
+  text-align: center;
+  margin: 0;
+  line-height: 2em;
+}
+
+.grid-content a {
+  text-decoration: none;
+  color: #07575b;
+  font-weight: 600;
+}
+
+.code-example__title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.code-example__area {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid-footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-weight: bold;
+  background-color: rgba(196, 223, 230, 0.25);
+}
+
+.grid-footer a {
+  text-decoration: none;
+  color: #000000;
+}
