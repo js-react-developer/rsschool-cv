@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Slava Liutkevich CV</title>
+  </head>
+  <body>
+    <div class="grid-wrapper">
+      <!-- main photo, first name, last name, profession-->
+      <header class="grid-header">
+        <img src="./images/my_photo.png" alt="my photo">
+        <div class="grid-header-info">
+          <h1>SLAVA LIUTKEVICH</h1>
+          <span>Junior Front-End Developer</span>
+        </div>
+      </header>
+      
+      <aside class="grid-side">
+        <section class="grid-side__contacts">
+          <div class="grid-side-header">
+            <h2>Contacts</h2>
+          </div>
+          <ul>
+            <li>
+              <img src="./images/icons/location.svg" alt="location icon">
+              <a href="https://www.google.com/maps/place/%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE/@53.6654474,23.8092753,13.6z/data=!4m13!1m7!3m6!1s0x46dfd64beac55d1d:0xf013fd26569718c0!2z0JPRgNC-0LTQvdC-!3b1!8m2!3d53.6687634!4d23.8222673!3m4!1s0x46dfd64beac55d1d:0xf013fd26569718c0!8m2!3d53.6687634!4d23.8222673">
+                <span>Grodno, Belarus</span>
+              </a>
+            </li>
+            <li>
+              <img src="./images/icons/telephone.svg" alt="telephone icon">
+              <span>+375 (29) 88-55-235</span>
+            </li>
+            <li>
+              <img src="./images/icons/email.svg" alt="email icon">
+              <span>slava.lyutkevich8308@gmail.com</span>
+            </li>
+            <li>
+              <img src="./images/icons/telegram.svg" alt="telegram icon">
+              <a href="https://t.me/BrainBelarus">
+                <span>Telegram</span>
+              </a>
+            </li>
+            <li>
+              <img src="./images/icons/linkedin.svg" alt="linkedin icon">
+              <a href="https://www.linkedin.com/in/lutkevich-wjacheslav/">
+                <span>LinkedIn</span>
+              </a>              
+            </li>
+          </ul>
+        </section>
+        <section class="hard-skills">
+          <div class="grid-side-header">
+            <h2>Hard skills</h2>
+          </div>
+          <ul>
+            <li>
+              <p>HTML5, CSS3, JavaScript</p>
+            </li>
+            <li>
+              <p>React, Redux</p>
+            </li>
+            <li>
+              <p>SQL, Node.js</p>
+            </li>
+            <li>
+              <p>Git, Github</p>
+            </li>
+          </ul>
+        </section>
+        <section class="languages">
+          <div class="grid-side-header">
+            <h2>Languages</h2>
+          </div>
+          <ul>
+            <li>
+              <p class="language">English</p>
+              <span>A2</span>
+            </li>
+            <li>
+              <p class="language">Russian</p>
+              <span>native</span>
+            </li>
+            <li>
+              <p class="language">Belorussian</p>
+              <span>native</span>
+            </li>
+          </ul>
+        </section>
+      </aside>
+
+      <!-- main information -->
+      <main class="grid-content">
+        <section class="about-me">
+          <div class="grid-content-header">
+            <h2>About me</h2>
+          </div>
+          <p>I am actively studying HTML, CSS and JavaScript. 
+             I easily find common ground in an unfamiliar situation.
+             I am striving to get a position of Junior JavaScript Developer.</p>
+        </section>
+        <section class="education">
+          <div class="grid-content-header">
+            <h2>Education</h2>
+          </div>
+          <p>Yanka Kupala State University of Grodno, Information Resource Management</p>
+        </section>
+        <section class="experience">
+          <div class="grid-content-header">
+            <h2>Experience</h2>
+          </div>
+          <ul>
+            <li>
+              <p>RS School "JavaScript/Frontend Pre-School" (Active)</p>
+            </li>
+            <li>
+              <a href="https://learn.javascript.ru/">
+                <p>JavaScript Tutorial</p>
+              </a>
+            </li>
+            <li>
+              <p>ReactJS - Samurai Way on
+                <a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8"><span>YouTube</span></a>
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="code-example">
+          <div class="grid-content-header">
+            <h2>Code example</h2>
+          </div>
+          <div class="code-example__title">
+            <p>Task description</p>
+          </div>
+          <p>Return the number (count) of vowels in the given string. We will consider *a*, *e*, *i*, *o*, *u* as vowels for this Kata (but not y*). The input string will only consist of lower case letters and/or spaces.</p>
+          
+          <div class="code-example__title">
+            <p>Solution</p>
+          </div>
+          <div class="code-example__area">
+            <pre>
+              function getCount(str) {
+                var vowelsCount = 0;
+                str = str.split(' ').join('');
+                for (var i = 0; i &lt; str.length; i++){
+                  if ('aeiou'.includes(str[i])){
+                    vowelsCount++;
+                  }
+                }
+                return vowelsCount;
+              }
+            </pre>
+          </div>
+        </section>
+      </main>
+
+      <!-- social media, year, rs-school -->
+      <footer class="grid-footer">
+        <a href="https://github.com/js-react-developer">
+          <img src="./images/icons/github.svg" alt="github icon" width="30">
+          <span>My GitHub</span>
+        </a>
+        <time>2021</time>
+        <a href="https://rs.school/js/">
+          <img src="./images/icons/rs_school_logo.svg" alt="rs_school logotype" width="70">
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
